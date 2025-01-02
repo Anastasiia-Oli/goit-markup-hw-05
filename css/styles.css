@@ -499,6 +499,7 @@ img {
   letter-spacing: 0.04em;
   border-radius: 4px;
   color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .sub-inp::placeholder {
@@ -633,7 +634,7 @@ img {
 .modal-inp {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  width: 100%;
+  width: 360px;
   height: 40px;
   padding-left: 38px;
   margin-top: 4px;
@@ -724,7 +725,7 @@ img {
   margin: -1px;
 }
 
-.modal-check:checked + .check-box {
+.modal-check:checked + .check-label .check-box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
